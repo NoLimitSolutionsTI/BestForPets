@@ -35,7 +35,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authz -> authz
                         .requestMatchers(
                                 "/api/v1/auth/register/administrator",
-                                "/api/v1/auth/register/personal/**",
+                                "/api/v1/auth/register/personal",
                                 "/api/v1/auth/login",
                                 "/api/v1/auth/verify",
                                 "/v3/api-docs/**",
