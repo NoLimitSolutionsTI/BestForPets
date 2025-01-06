@@ -46,7 +46,7 @@ public class MailService {
 
             helper.setText(htmlContent, true);
 
-            ClassPathResource resource = new ClassPathResource("static/images/BestForPetsLogo.jpeg");
+            ClassPathResource resource = new ClassPathResource("static/Images/BestForPetsLogo.jpeg");
             helper.addInline("logoImage", resource);
 
             mailSender.send(message);
